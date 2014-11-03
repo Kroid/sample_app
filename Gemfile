@@ -3,6 +3,7 @@ ruby '2.1.3'
 
 gem 'rails', '4.1.7'
 
+gem 'haml-rails', '0.5.3'
 gem 'sass-rails', '4.0.3'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
