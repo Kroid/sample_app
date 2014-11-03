@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.3'
 
 gem 'rails', '4.1.7'
+gem 'pg', '0.17.1'
 
 gem 'haml-rails', '0.5.3'
 gem 'sass-rails', '4.0.3'
@@ -16,16 +17,14 @@ group :doc do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.10'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.1.0'
 end
 
 group :test do
-  gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'selenium-webdriver', '2.43.0'
+  gem 'capybara', '2.4.4'
 end
 
 group :production do
-  gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.3'
 end
