@@ -1,0 +1,13 @@
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .navbar-inner
+    .container
+      = link_to 'sample_app', root_path, id: 'logo'
+
+      %nav.nav.pull-right
+        %ul
+          %li
+            = link_to 'Home', root_path
+          %li
+            = link_to 'Help', help_path
+          %li
+            = link_to 'Sing In', '#'
