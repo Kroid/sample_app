@@ -4,6 +4,8 @@ ruby '2.1.3'
 gem 'rails', '4.1.7'
 gem 'pg', '0.17.1'
 
+gem 'bcrypt', '3.1.9'
+
 gem 'uglifier', '2.1.1'
 gem 'turbolinks', '2.5.1'
 gem 'jbuilder', '2.2.4'
