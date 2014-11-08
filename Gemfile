@@ -4,7 +4,8 @@ ruby '2.1.3'
 gem 'rails', '4.1.7'
 gem 'pg', '0.17.1'
 
-gem 'bcrypt', '3.1.9'
+# gem 'bcrypt', '3.1.9'
+gem 'bcrypt-ruby', '3.1.5'
 
 gem 'uglifier', '2.1.1'
 gem 'turbolinks', '2.5.1'
@@ -28,6 +29,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.43.0'
   gem 'capybara', '2.4.4'
+  gem 'factory_girl_rails', '4.5.0'
 end
 
 group :production do
